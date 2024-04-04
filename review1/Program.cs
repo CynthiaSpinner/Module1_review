@@ -34,7 +34,7 @@
 
             Console.WriteLine("Enter the size of a side of your square: ");
             double side = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"The area of your square is: " + AreaOfSquare(side);
+            Console.WriteLine($"The area of your square is: " + AreaOfSquare(side));
 
         }
 
@@ -60,5 +60,5 @@
             return side * side;
         }
     }
-    }
+    
 }
